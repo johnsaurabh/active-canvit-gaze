@@ -1,0 +1,49 @@
+# Internal tracking / prompt files — not part of the scientific project
+PROJECT_STATE.md
+*_Prompt.md
+*_prompt.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.env
+
+# Data — never commit raw datasets
+data/
+*.JPEG
+*.jpg
+*.png
+*.pdf
+!docs/paper.pdf
+
+# Results — large, generated
+results/raw/
+results/processed/
+results/figures/
+results/tables/
+
+# HuggingFace cache
+.cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Experiment artifacts
+*.parquet
+*.csv
+*.pt
+*.pth
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
